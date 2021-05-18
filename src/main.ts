@@ -11,6 +11,7 @@ paraiso.adicionarAmigos(anderson);
 paraiso.adicionarAmigos(letty);
 paraiso.adicionarAmigos(emerson);
 
+
 const bomdia: Post = new Post("Bom dia crl");
 const boatarde: Post = new Post("Boa tarde crl");
 const boanoite: Post = new Post("Boa noite crl");
