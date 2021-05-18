@@ -12,9 +12,9 @@ paraiso.adicionarAmigos(letty);
 paraiso.adicionarAmigos(emisu);
 
 
-const bomdia: Post = new Post("Bom dia crl");
-const boatarde: Post = new Post("Boa tarde crl");
-const boanoite: Post = new Post("Boa noite crl");
+const bomdia: Post = new Post("Bom dia");
+const boatarde: Post = new Post("Boa tarde");
+const boanoite: Post = new Post("Boa noite");
 
 anderson.postar(bomdia);
 anderson.postar(boatarde);
