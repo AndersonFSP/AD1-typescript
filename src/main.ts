@@ -5,11 +5,11 @@ import { Rede } from "./modelo/Rede";
 const paraiso: Rede = new Rede();
 const anderson: Amigo = new Amigo("Anderson");
 const letty: Amigo = new Amigo("Letty");
-const emerson: Amigo = new Amigo("Emerson");
+const emisu: Amigo = new Amigo("Emerson");
 
 paraiso.adicionarAmigos(anderson);
 paraiso.adicionarAmigos(letty);
-paraiso.adicionarAmigos(emerson);
+paraiso.adicionarAmigos(emisu);
 
 
 const bomdia: Post = new Post("Bom dia crl");
@@ -23,9 +23,9 @@ letty.postar(boanoite);
 letty.curtir(bomdia);
 letty.curtir(boatarde);
 anderson.curtir(boanoite);
-emerson.curtir(bomdia);
-emerson.curtir(boatarde);
-emerson.curtir(boanoite);
+emisu.curtir(bomdia);
+emisu.curtir(boatarde);
+emisu.curtir(boanoite);
 
 console.log("TIMELINE")
 console.log(paraiso.timeline())
