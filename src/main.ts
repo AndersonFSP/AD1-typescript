@@ -4,8 +4,8 @@ import { Rede } from "./modelo/Rede";
 
 const paraiso: Rede = new Rede();
 const anderson: Amigo = new Amigo("Anderson filipe");
-const letty: Amigo = new Amigo("Letty");
-const emisu: Amigo = new Amigo("Emerson");
+const letty: Amigo = new Amigo("Letty V. C.");
+const emisu: Amigo = new Amigo("Dunga");
 
 paraiso.adicionarAmigos(anderson);
 paraiso.adicionarAmigos(letty);
